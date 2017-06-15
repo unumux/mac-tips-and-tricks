@@ -37,21 +37,24 @@ A small collection of tips and tricks for Mac FEDs. This is just a collection of
 - Spacebar quick look
 
 ## Recommended Apps
-- Trailer App: https://ptsochantaris.github.io/trailer/
-- Dock spacers: https://github.com/chuckhendo/add-dock-spacer
+- Amphetamine (Free): https://itunes.apple.com/us/app/amphetamine/id937984704?mt=12
+- Freespace ($0.99): https://itunes.apple.com/us/app/freespace/id457520846?mt=12
+- Trailer (Free): https://ptsochantaris.github.io/trailer/
+- Dock spacers (Free): https://github.com/chuckhendo/add-dock-spacer
 - Window managers: 
-    - Magnet: 0.99 on App Store: http://magnet.crowdcafe.com/
-    - Spectacles: Free: https://www.spectacleapp.com/
-- Alfred: https://www.alfredapp.com/
+    - Magnet ($0.99): https://itunes.apple.com/us/app/magnet/id441258766?mt=12
+    - Spectacles (Free): https://www.spectacleapp.com/
+- Alfred (Free, $24.24 for Powerpack or $44.65 for lifetime upgrades): https://www.alfredapp.com/
     - Clear your clipboard before demonstrating :)
     - Cmd+Shift+C: Clipboard history
     - File system browsing
     - Workflows!
 - Git GUIs (trigger warning)
-    - Sourcetree: https://www.sourcetreeapp.com/ (stupid buggy, but powerful and free)
-    - Github Desktop: https://desktop.github.com/ (kinda slow, limited functionality, free)
-    - Tower: https://www.git-tower.com/mac/
-    - Visual Studio Code
+    - Sourcetree (Free, requires registration): https://www.sourcetreeapp.com/ (stupid buggy, but powerful)
+    - Github Desktop (Free): https://desktop.github.com/ (kinda slow, limited functionality)
+    - Tower ($59.25): https://www.git-tower.com/mac/
+    - Git support in Visual Studio Code
+        - Somewhat limited out of the box, extensions in the VSCode section will help
 
 
 # zsh
@@ -115,13 +118,20 @@ A small collection of tips and tricks for Mac FEDs. This is just a collection of
 # VSCode
 - Start here: https://github.com/Microsoft/vscode-tips-and-tricks
 - Interactive Playground: Help -> Interactive Playground
+- Quick Open: cmd+p
+    - fuzzy match file names
+    - type question mark for additional things
+    - @ - symbol search
 - Command Palete: cmd+shift+p
 - Terminal: ctrl+` (tilde)
+- Power use of find
+    - Delete multiple instances of string in file (index.html in test-oak-project)
+    - Regular Expressions
 - Icon Themes
     - Cmd+Shift+P->icon->Preferences: File Icon Theme
     - I use Material Icon Theme
     - Seti is another good option
-- Key chords: 
+- Key chords:
     - Change language mode: cmd+k m (hit cmd+k, and THEN m)
     - usually (always?) start with CMD+K
 - Keybindings: cmd+shift+p->keyboard->Open Keyboard Shortcuts
@@ -159,6 +169,11 @@ A small collection of tips and tricks for Mac FEDs. This is just a collection of
         - `"git.confirmSync": false`
         - `"editor.fontFamily"` & `"editor.fontSize"` & `"editor.fontWeight"`
         - `"git.enableSmartCommit": true`
+- Git support
+    - Commits
+    - Staging
+    - Undoing
+    - Handling merge conflicts
 - Emmet
     - Set "emmet.useNewEmmet": true
     - HTML
