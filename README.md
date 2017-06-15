@@ -56,7 +56,6 @@ A small collection of tips and tricks for Mac FEDs. This is just a collection of
     - Git support in Visual Studio Code
         - Somewhat limited out of the box, extensions in the VSCode section will help
 
-
 # zsh
 - iTerm vs bash vs zsh vs oh-my-zsh
     - Big difference between zsh and bash - powerful autocompletion
@@ -122,7 +121,9 @@ A small collection of tips and tricks for Mac FEDs. This is just a collection of
     - fuzzy match file names
     - type question mark for additional things
     - @ - symbol search
-- Command Palete: cmd+shift+p
+- Command Palette: cmd+shift+p
+    - You can't remember every keyboard shortcut
+    - Remember the ones you use often, use the Command Palette for everything else
 - Terminal: ctrl+` (tilde)
 - Power use of find
     - Delete multiple instances of string in file (index.html in test-oak-project)
