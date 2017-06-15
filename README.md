@@ -74,7 +74,6 @@ A small collection of tips and tricks for Mac FEDs. This is just a collection of
         - Connecting directly to a "remote" repo
         - Just using it locally and never pushing
     - Github provides access control and collaboration features
-
 - Git shortcuts in oh-my-zsh: https://github.com/robbyrussell/oh-my-zsh/wiki/Plugin:git
     - Ones I typically use: 
         - `ga .` (git add .)
@@ -82,7 +81,6 @@ A small collection of tips and tricks for Mac FEDs. This is just a collection of
         - `gp` (git push)
         - `gcb branch-name` (git checkoub -b branch-name) - create a new branch
         - `gco branch-name` (git checkout branch-name) - checkout existing branch
-
 - Github Hub: https://github.com/github/hub
     - hub create
     - hub clone
@@ -94,7 +92,6 @@ A small collection of tips and tricks for Mac FEDs. This is just a collection of
 - dot files
     - .zshrc
     - https://dotfiles.github.io/
-
 
 # VSCode
 - Start here: https://github.com/Microsoft/vscode-tips-and-tricks
@@ -109,6 +106,33 @@ A small collection of tips and tricks for Mac FEDs. This is just a collection of
     - Change language mode: cmd+k m (hit cmd+k, and THEN m)
     - usually (always?) start with CMD+K
 - Keybindings: cmd+shift+p->keyboard->Open Keyboard Shortcuts
+    - Keybindings that I use:
+    ```
+    [
+        {
+            "key": "shift+cmd+g",
+            "command": "workbench.view.scm"
+        },
+        {
+            "key": "shift+cmd+r",
+            "command": "workbench.action.tasks.runTask"
+        },
+        {
+            "key": "cmd+r",
+            "command": "workbench.action.debug.start",
+            "when": "!inDebugMode"
+        },
+        {
+            "key": "cmd+r",
+            "command": "workbench.action.debug.restart",
+            "when": "inDebugMode"
+        }, 
+        {
+            "key": "shift+cmd+s",
+            "command": "git.sync"
+        }
+    ]
+    ```
 - Settings: Global vs Workspace
     - Global: Access with Cmd+,
     - Some useful global settings
@@ -116,7 +140,6 @@ A small collection of tips and tricks for Mac FEDs. This is just a collection of
         - `"git.confirmSync": false`
         - `"editor.fontFamily"` & `"editor.fontSize"` & `"editor.fontWeight"`
         - `"git.enableSmartCommit": true`
-
 - Emmet
     - Set "emmet.useNewEmmet": true
     - HTML
