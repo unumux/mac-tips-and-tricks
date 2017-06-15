@@ -134,6 +134,7 @@ A small collection of tips and tricks for Mac FEDs. This is just a collection of
     - Seti is another good option
 - Key chords:
     - Change language mode: cmd+k m (hit cmd+k, and THEN m)
+    - Close all tabs in current window: cmd+k w
     - usually (always?) start with CMD+K
 - Keybindings: cmd+shift+p->keyboard->Open Keyboard Shortcuts
     - Keybindings that I use:
