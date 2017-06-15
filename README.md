@@ -79,8 +79,12 @@ A small collection of tips and tricks for Mac FEDs. This is just a collection of
         - `gcb branch-name` (git checkoub -b branch-name) - create a new branch
         - `gco branch-name` (git checkout branch-name) - checkout existing branch
 - Github Hub: https://github.com/github/hub
-    - hub create
-    - hub clone
+    - hub create [repo]
+        - by default, it will create a repo under your username
+        - if you prefix with an organization name `unumux/test-repo`, it will create it under that org
+    - hub clone [repo]
+        - Same rules as above
+        - Example: `hub clone unumux/willow`
     - hub browse
 - Tab completions
     - tab twice to get a list of all completions
