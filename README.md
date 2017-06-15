@@ -55,9 +55,6 @@ A small collection of tips and tricks for Mac FEDs. This is just a collection of
 
 
 # zsh
-- nvm: https://github.com/creationix/nvm
-- Homebrew: https://brew.sh/
-- Cask: https://caskroom.github.io/ (undecided on whether to use this)
 - iTerm vs bash vs zsh vs oh-my-zsh
     - Big difference between zsh and bash - powerful autocompletion
     - Other shells
@@ -85,9 +82,27 @@ A small collection of tips and tricks for Mac FEDs. This is just a collection of
     - hub create
     - hub clone
     - hub browse
+- Tab completions
+    - tab twice to get a list of all completions
+    - continue hitting tab to cycle through options OR use arrow keys
+- ctrl+c - cancel command (or clear line if nothing is running)
+- ctrl+a / ctrl+e - go to beginning or end of line
+- Command History
+    - Up Arrow
+    - ctrl+r
+- Clear screen vs clear buffer
+    - `clear` - now scroll up
+    - cmd+k - clears buffer
+- nvm: https://github.com/creationix/nvm
+- Homebrew: https://brew.sh/
+- Cask: https://caskroom.github.io/ (undecided on whether to use this)
 - open command
 - take command
-- iTerm profiles!
+- cmd+click - iTerm links
+- iTerm settings (cmd+,)
+    - Scrollback history
+        - Profiles, select default profile, click terminal tab, check `Unlimited scrollback`
+    - Profiles
 - alias co=“code .”
 - dot files
     - .zshrc
