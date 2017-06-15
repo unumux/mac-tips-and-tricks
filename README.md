@@ -189,7 +189,7 @@ A small collection of tips and tricks for Mac FEDs. This is just a collection of
         - df+fg1+fb100p
 
 ## Extensions
-- Install going to the extensions pane, searching for `chuckhendo` and installing `chuckhendo-vscode-extensions`
+- Install by going to the extensions pane, searching for `chuckhendo` and installing `chuckhendo-vscode-extensions`
 - List
     - Advanced New File: cmd+option+n  (may want to change some settings)
     - Annotator: show who modified lines in a git repo
