@@ -194,6 +194,11 @@ A small collection of tips and tricks for Mac FEDs. This is just a collection of
 - Install by going to the extensions pane, searching for `chuckhendo` and installing `chuckhendo-vscode-extensions`
 - List
     - Advanced New File: cmd+option+n  (may want to change some settings)
+        - I recommend changing these settings (in your global settings, `cmd+,`) to make this behave a bit better
+        ```
+        "newFile.relativeTo": "project",
+        "newFile.showPathRelativeTo": "project"
+        ```
     - Annotator: show who modified lines in a git repo
     - Auto Close Tag: If you're not using emmet for whatever reason (maybe using css intellisense), this autocloses tags
     - Code Runner: Run bits of code, including individual lines
